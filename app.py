@@ -7,7 +7,7 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = '0fb59abbe2bb39814d80f1d1'
+app.config['SECRET_KEY'] = '01d47391683dc0465d17a607'
 grade = Grade()
 engine = create_engine('sqlite:///db/programacao.db')
 Session = sessionmaker(bind=engine)
